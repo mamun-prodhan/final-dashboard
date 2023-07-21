@@ -40,7 +40,7 @@ const Main = () => {
             src={person}
             alt="dashboard"
           />
-          <p className="text-xs font-semibold mt-1">Dashboard</p>
+          <p className="text-xs font-semibold mt-1">User</p>
         </div>
         </Link>
         <Link to={"/trades"}>
