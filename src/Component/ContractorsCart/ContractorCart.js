@@ -28,12 +28,12 @@ const ContractorCart = () => {
         }
     ]
     return (
-        <div className="p-5 lg:p-14 mt-10 bg-[#FFF] rounded-2xl ">
+        <div className="p-8 md:p-14 mt-10 bg-[#FFF] rounded-2xl ">
             <div className=''>
                 <p className=''>All</p>
                 <p className='mt-3'>Unverified </p>
-                <p className='mt-3'>verified </p>
-                <p className='mt-3'>Reccomended </p>
+                <p className='mt-3'>Verified </p>
+                <p className='mt-3'>Recommended </p>
             </div>
 
             <div className='mt-5 grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-4'>
