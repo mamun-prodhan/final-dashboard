@@ -59,7 +59,7 @@ const ContractorCart = () => {
                 </div>
             </div>
             {/* cart container  */}
-            <div className='mt-20 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8'>
+            <div className='mt-20 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8'>
                 {
                     datas?.map(data=> <Cart data={data} key={data.id}></Cart>)
                 }

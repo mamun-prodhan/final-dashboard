@@ -15,20 +15,20 @@ const Cart = ({data}) => {
             </div>
             <hr className='mt-4' />
             <div className=' mt-3 '>
-                <h1 className='text-center'>{data.name}</h1>
+                <h1 className='text-center text-xl font-bold'>{data.name}</h1>
                 <p className='text-center'><small>{data.date}</small></p>
                 <p className='text-center'>{data.designation}</p>
             </div>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-2 gap-4 mt-3'>
-                <button className='bg-[#E6EBE3] p-1 rounded mt-2 w-28 '>Building</button>
-                <button className='bg-[#E6EBE3] p-1 rounded mt-2 w-28'>Building</button>
-                <button className='bg-[#E6EBE3] p-1 rounded mt-2 w-28'>Building</button>
+                <button className='bg-[#E6EBE3] p-1 rounded mt-2 w-28 font-semibold '>Building</button>
+                <button className='bg-[#E6EBE3] p-1 rounded mt-2 w-28 font-semibold'>Building</button>
+                <button className='bg-[#E6EBE3] p-1 rounded mt-2 w-28 font-semibold'>Building</button>
             </div>
             <div className='mt-3'>
-                <h1 className='text-center text-[#F6B501]'>-- {data.view}</h1>
+                <h1 className='text-center text-[#F6B501] font-semibold'>-- {data.view}</h1>
             </div>
             </div>
-            <button  onClick={handleNavigate} className='w-full bg-[#F6B501] p-3 rounded' >view</button>
+            <button  onClick={handleNavigate} className='w-full font-semitbold bg-[#F6B501] p-3 rounded' >view</button>
         </div>
     );
 };
