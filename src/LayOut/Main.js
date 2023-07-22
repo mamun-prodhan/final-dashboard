@@ -3,6 +3,8 @@ import menuHome from "../asset/home-menu.svg";
 import person from "../asset/person 2.png";
 import Teads from "../asset/hammer (1) 3.png";
 import Enginer from "../asset/engineer.png";
+// import findTrade from "../asset/findatrade-01 4.png";
+// import settings from '../asset/setting 2.png';
 import { SearchIcon } from "@heroicons/react/outline";
 import { Link, Outlet } from 'react-router-dom';
 
@@ -16,7 +18,7 @@ const Main = () => {
         <Link to={"/dashbord"}>
         <div className="flex flex-col items-center">
           <img
-            className="w-[56px] h-[49px] hover:bg-[#3F8825] rounded-xl p-3  hover:bg-opacity-[31%]"
+            className="w-[48px] h-[48px] hover:bg-[#3F8825] rounded-xl p-3  hover:bg-opacity-[31%]"
             src={menuHome}
             alt="dashboard"
           />
@@ -26,7 +28,7 @@ const Main = () => {
         <Link to={"/contractors"}>
         <div className="flex flex-col items-center  lg:my-16">
           <img
-            className="w-[56px] h-[49px] hover:bg-[#3F8825] rounded-xl p-3  hover:bg-opacity-[31%]"
+            className="w-[48px] h-[48px] hover:bg-[#3F8825] rounded-xl p-3  hover:bg-opacity-[31%]"
             src={Enginer}
             alt="contractors"
           />
@@ -36,7 +38,7 @@ const Main = () => {
         <Link to={"/user"}>
         <div className="flex flex-col items-center">
           <img
-            className="w-[56px] h-[49px] hover:bg-[#3F8825] rounded-xl p-3  hover:bg-opacity-[31%]"
+            className="w-[48px] h-[48px] hover:bg-[#3F8825] rounded-xl p-3  hover:bg-opacity-[31%]"
             src={person}
             alt="dashboard"
           />
@@ -46,7 +48,7 @@ const Main = () => {
         <Link to={"/trades"}>
         <div className="flex flex-col items-center  lg:my-16">
           <img
-            className="w-[56px] h-[49px] hover:bg-[#3F8825] rounded-xl p-3  hover:bg-opacity-[31%]"
+            className="w-[48px] h-[48px] hover:bg-[#3F8825] rounded-xl p-3  hover:bg-opacity-[31%]"
             src={Teads}
             alt="contractors"
           />
