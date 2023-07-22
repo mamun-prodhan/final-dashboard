@@ -6,15 +6,15 @@ import corss from "../../asset/Vector (2).png";
 const ContracorsCartDetails = () => {
   return (
     <div className="p-5 lg:p-14 mt-10 bg-[#FFF] rounded-2xl ">
-      <div className="flex justify-between">
+      <div className="flex items-center justify-between">
         {/* profile  */}
-        <div className="flex items-center">
+        <div className="md:flex lg:flex items-center">
           <div className="lg:mr-5 mr-2">
             <img src={profile} alt="" />
           </div>
           <div>
             <h1 className="font-bold text-xl">
-              Paul Smith <small className="font-thin">(Area B32 NH)</small>
+              Paul Smith <small className="font-thin block md:inline">(Area B32 NH)</small>
             </h1>
             <p>
               <small>(2 feb 2023)</small>
@@ -44,7 +44,7 @@ const ContracorsCartDetails = () => {
       </div>
       <hr className="mt-6 w-full" />
       {/* information section section  */}
-      <div className="flex lg:mx-28 md:mx-12 mt-7">
+      <div className="flex gap-10 lg:mx-28 md:mx-12 mt-7">
         <div className="lg:mr-40 md:mr-20 mr-3">
           <div>
             <h1 className="text-xl font-semibold">Name</h1>
