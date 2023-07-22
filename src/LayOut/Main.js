@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import menuHome from "../asset/home-menu.svg";
 import person from "../asset/person 2.png";
 import Teads from "../asset/hammer (1) 3.png";
@@ -6,54 +6,52 @@ import Enginer from "../asset/engineer.png";
 // import findTrade from "../asset/findatrade-01 4.png";
 // import settings from '../asset/setting 2.png';
 import { SearchIcon } from "@heroicons/react/outline";
-import { Link, Outlet } from 'react-router-dom';
-
-
+import { Link, Outlet } from "react-router-dom";
 
 const Main = () => {
-    return (
-        <div className="lg:flex py-16">
+  return (
+    <div className="lg:flex py-16">
       {/* menu div */}
       <div className="w-[100%] h-[100%] lg:w-[20%] flex lg:block items-center justify-around py-3 ">
         <Link to={"/dashbord"}>
-        <div className="flex flex-col items-center">
-          <img
-            className="w-[48px] h-[48px] hover:bg-[#3F8825] rounded-xl p-3  hover:bg-opacity-[31%]"
-            src={menuHome}
-            alt="dashboard"
-          />
-          <p className="text-xs font-semibold mt-1">Dashboard</p>
-        </div>
+          <div className="flex flex-col items-center">
+            <img
+              className="w-[48px] h-[48px] hover:bg-[#3F8825] rounded-xl p-3  hover:bg-opacity-[31%]"
+              src={menuHome}
+              alt="dashboard"
+            />
+            <p className="text-xs font-semibold mt-1">Dashboard</p>
+          </div>
         </Link>
         <Link to={"/contractors"}>
-        <div className="flex flex-col items-center  lg:my-16">
-          <img
-            className="w-[48px] h-[48px] hover:bg-[#3F8825] rounded-xl p-3  hover:bg-opacity-[31%]"
-            src={Enginer}
-            alt="contractors"
-          />
-          <p className="text-xs font-semibold mt-1">Contractors</p>
-        </div>
+          <div className="flex flex-col items-center  lg:my-16">
+            <img
+              className="w-[48px] h-[48px] hover:bg-[#3F8825] rounded-xl p-3  hover:bg-opacity-[31%]"
+              src={Enginer}
+              alt="contractors"
+            />
+            <p className="text-xs font-semibold mt-1">Contractors</p>
+          </div>
         </Link>
         <Link to={"/user"}>
-        <div className="flex flex-col items-center">
-          <img
-            className="w-[48px] h-[48px] hover:bg-[#3F8825] rounded-xl p-3  hover:bg-opacity-[31%]"
-            src={person}
-            alt="dashboard"
-          />
-          <p className="text-xs font-semibold mt-1">User</p>
-        </div>
+          <div className="flex flex-col items-center">
+            <img
+              className="w-[48px] h-[48px] hover:bg-[#3F8825] rounded-xl p-3  hover:bg-opacity-[31%]"
+              src={person}
+              alt="dashboard"
+            />
+            <p className="text-xs font-semibold mt-1">User</p>
+          </div>
         </Link>
         <Link to={"/trades"}>
-        <div className="flex flex-col items-center  lg:my-16">
-          <img
-            className="w-[48px] h-[48px] hover:bg-[#3F8825] rounded-xl p-3  hover:bg-opacity-[31%]"
-            src={Teads}
-            alt="contractors"
-          />
-          <p className="text-xs font-semibold mt-1">Trades</p>
-        </div>
+          <div className="flex flex-col items-center  lg:my-16">
+            <img
+              className="w-[48px] h-[48px] hover:bg-[#3F8825] rounded-xl p-3  hover:bg-opacity-[31%]"
+              src={Teads}
+              alt="contractors"
+            />
+            <p className="text-xs font-semibold mt-1">Trades</p>
+          </div>
         </Link>
       </div>
       <div className="w-[100%] lg:w-[80%] h-[100%] mt-5">
@@ -81,11 +79,9 @@ const Main = () => {
         </div>
         {/* graph container  */}
         <Outlet></Outlet>
-
       </div>
-
     </div>
-    );
+  );
 };
 
 export default Main;

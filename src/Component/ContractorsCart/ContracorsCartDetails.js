@@ -14,7 +14,8 @@ const ContracorsCartDetails = () => {
           </div>
           <div>
             <h1 className="font-bold text-xl">
-              Paul Smith <small className="font-thin block md:inline">(Area B32 NH)</small>
+              Paul Smith{" "}
+              <small className="font-thin block md:inline">(Area B32 NH)</small>
             </h1>
             <p>
               <small>(2 feb 2023)</small>
@@ -29,7 +30,9 @@ const ContracorsCartDetails = () => {
           <div className="lg:mr-4 md:mr-3">
             <p className="mb-1 text-sm font-semibold ">STATUS</p>
             <div className="flex items-center rounded-full bg-[#3F8825] justify-around py-1 px-3 ">
-              <button className="mr-3 text-sm text-[#FFFFFF] ">Unverified </button>
+              <button className="mr-3 text-sm text-[#FFFFFF] ">
+                Unverified{" "}
+              </button>
               <img className="w-[16px] h-[16px]" src={arow1} alt="" />
             </div>
           </div>
@@ -79,18 +82,18 @@ const ContracorsCartDetails = () => {
       <div className=" lg:mx-28 md:mx-12 mt-7">
         <h1 className="text-xl font-semibold">Trades</h1>
         <div className="mt-4 flex mb-10">
-            <div className="bg-[#E5EBE4] p-2 w-32 flex rounded-full items-center justify-around lg:mr-4 mr-2">
-                <button className="">Building </button>
-                <img className=" h-4" src={corss} alt="" />
-            </div>
-            <div className="bg-[#E5EBE4] p-2 w-32 flex rounded-full items-center justify-around lg:mr-4 mr-2">
-                <button className="">Arcitecture </button>
-                <img className=" h-4" src={corss} alt="" />
-            </div>
-            <div className="bg-[#E5EBE4] p-2 w-32 flex rounded-full items-center justify-around">
-                <button className="">Gardening </button>
-                <img className=" h-4" src={corss} alt="" />
-            </div>
+          <div className="bg-[#E5EBE4] p-2 w-32 flex rounded-full items-center justify-around lg:mr-4 mr-2">
+            <button className="">Building </button>
+            <img className=" h-4" src={corss} alt="" />
+          </div>
+          <div className="bg-[#E5EBE4] p-2 w-32 flex rounded-full items-center justify-around lg:mr-4 mr-2">
+            <button className="">Arcitecture </button>
+            <img className=" h-4" src={corss} alt="" />
+          </div>
+          <div className="bg-[#E5EBE4] p-2 w-32 flex rounded-full items-center justify-around">
+            <button className="">Gardening </button>
+            <img className=" h-4" src={corss} alt="" />
+          </div>
         </div>
       </div>
       <hr className="mt-6 " />

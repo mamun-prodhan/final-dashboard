@@ -10,31 +10,31 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
-    children:[
-        {
-            path:"/",
-            element:<DashBord></DashBord>
-        },
-        {
-            path:"/dashbord",
-            element:<DashBord></DashBord>
-        },
-        {
-            path:"/contractors",
-            element:<ContractorCart></ContractorCart>
-        },
-        {
-            path:"/contractorCart-details",
-            element: <ContracorsCartDetails></ContracorsCartDetails>
-        },
-        {
-            path:"/trades",
-            element: <Trades></Trades>
-        },
-        {
-            path:"/user",
-            element: <User></User>
-        },
-    ]
+    children: [
+      {
+        path: "/",
+        element: <DashBord></DashBord>,
+      },
+      {
+        path: "/dashbord",
+        element: <DashBord></DashBord>,
+      },
+      {
+        path: "/contractors",
+        element: <ContractorCart></ContractorCart>,
+      },
+      {
+        path: "/contractorCart-details",
+        element: <ContracorsCartDetails></ContracorsCartDetails>,
+      },
+      {
+        path: "/trades",
+        element: <Trades></Trades>,
+      },
+      {
+        path: "/user",
+        element: <User></User>,
+      },
+    ],
   },
 ]);
