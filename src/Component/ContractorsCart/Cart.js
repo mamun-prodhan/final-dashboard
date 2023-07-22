@@ -20,7 +20,7 @@ const Cart = ({data}) => {
                 <p className='text-center'>{data.designation}</p>
             </div>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-2 gap-4 mt-3'>
-                <button className='bg-[#E6EBE3] p-1 rounded mt-2 w-28 font-semibold '>Building</button>
+                <button className='bg-[#E6EBE3] p-1 rounded mt-2 w-28 font-semibold'>Building</button>
                 <button className='bg-[#E6EBE3] p-1 rounded mt-2 w-28 font-semibold'>Building</button>
                 <button className='bg-[#E6EBE3] p-1 rounded mt-2 w-28 font-semibold'>Building</button>
             </div>

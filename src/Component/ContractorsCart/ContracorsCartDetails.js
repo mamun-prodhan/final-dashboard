@@ -13,7 +13,7 @@ const ContracorsCartDetails = () => {
             <img src={profile} alt="" />
           </div>
           <div>
-            <h1 className="font-bold">
+            <h1 className="font-bold text-xl">
               Paul Smith <small className="font-thin">(Area B32 NH)</small>
             </h1>
             <p>
@@ -27,17 +27,17 @@ const ContracorsCartDetails = () => {
         {/* right side profile button  */}
         <div className="lg:flex md:flex ">
           <div className="lg:mr-4 md:mr-3">
-            <p className="mb-1 text-xs lg:text-lg md:text-lg ">STATUS</p>
-            <div className="flex rounded-full bg-[#3F8825] lg:w-40 justify-around p-1 lg:p-2 md:w-36 w-28 md:p-2 ">
-              <button className="lg:mr-6 text-[#FFFFFF] lg:text-sm text-xs">Unverified </button>
-              <img src={arow1} alt="" />
+            <p className="mb-1 text-sm font-semibold ">STATUS</p>
+            <div className="flex items-center rounded-full bg-[#3F8825] justify-around py-1 px-3 ">
+              <button className="mr-3 text-sm text-[#FFFFFF] ">Unverified </button>
+              <img className="w-[16px] h-[16px]" src={arow1} alt="" />
             </div>
           </div>
-          <div>
-            <p className="mb-1  lg:text-lg md:text-lg text-xs">ACCOUNT</p>
-            <div className="flex rounded-full bg-[#3F8825] lg:w-40 justify-around p-1 md:w-36 lg:p-2 md:p-2 w-28">
-              <button className="lg:mr-6 text-[#FFFFFF] lg:text-sm text-xs">Active </button>
-              <img className=" " src={arow1} alt="" />
+          <div className="lg:mr-4 md:mr-3">
+            <p className="mb-1 text-sm font-semibold ">Account</p>
+            <div className="flex items-center rounded-full bg-[#3F8825] justify-around py-1 px-3 ">
+              <button className="mr-3 text-sm text-[#FFFFFF] ">Active </button>
+              <img className="w-[16px] h-[16px]" src={arow1} alt="" />
             </div>
           </div>
         </div>
@@ -47,28 +47,28 @@ const ContracorsCartDetails = () => {
       <div className="flex lg:mx-28 md:mx-12 mt-7">
         <div className="lg:mr-40 md:mr-20 mr-3">
           <div>
-            <h1 className="lg:text-2xl text-xl font-bold">Name</h1>
+            <h1 className="text-xl font-semibold">Name</h1>
             <p>Kirk Smith</p>
           </div>
           <div>
-            <h1 className="lg:text-2xl text-xl font-bold">Contact details</h1>
+            <h1 className="text-xl font-semibold">Contact details</h1>
             <p>07902345507</p>
           </div>
         </div>
         <div>
           <div>
-            <h1 className="lg:text-2xl text-xl font-bold">Email address</h1>
+            <h1 className="text-xl font-semibold">Email address</h1>
             <p>kirk@gmail.com</p>
           </div>
           <div>
-            <h1 className="lg:text-2xl text-xl font-bold">UserName</h1>
+            <h1 className="text-xl font-semibold">UserName</h1>
             <p>Kirk</p>
           </div>
         </div>
       </div>
       <hr className="mt-6 " />
       <div className=" lg:mx-28 md:mx-12 mt-7">
-        <h1 className=" lg:text-2xl text-xl font-bold">Introduction</h1>
+        <h1 className="text-xl font-semibold">Introduction</h1>
         <p>
           Hello mate how are you this is a test descrpiton Hello mate how are
           you this is a test descrpiton Hello mate how are you this is a test
@@ -77,7 +77,7 @@ const ContracorsCartDetails = () => {
       </div>
       <hr className="mt-6 " />
       <div className=" lg:mx-28 md:mx-12 mt-7">
-        <h1 className="lg:text-2xl text-xl font-bold">Trades</h1>
+        <h1 className="text-xl font-semibold">Trades</h1>
         <div className="mt-4 flex mb-10">
             <div className="bg-[#E5EBE4] p-2 w-32 flex rounded-full items-center justify-around lg:mr-4 mr-2">
                 <button className="">Building </button>

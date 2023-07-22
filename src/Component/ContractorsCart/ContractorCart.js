@@ -37,23 +37,23 @@ const ContractorCart = () => {
             </div>
 
             <div className='mt-5 grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-4'>
-                <div className='mr-4'>
+                <div className='mr-4 mb-8 md:mb-8 lg:mb-0'>
                     <h1 className='font-bold mb-3'>Status</h1>
                     <DropDown></DropDown>
                 </div>
-                <div className='mr-4'>
+                <div className='mr-4 mb-8 md:mb-8 lg:mb-0'>
                     <h1 className='font-bold mb-3'>Trade</h1>
                     <DropDown></DropDown>
                 </div>
-                <div className='mr-4'>
+                <div className='mr-4 mb-8 md:mb-8 lg:mb-0'>
                 <h1 className='font-bold mb-3'>Type</h1>
                     <DropDown></DropDown>
                 </div>
-                <div className='mr-4'>
+                <div className='mr-4 mb-8 md:mb-8 lg:mb-0'>
                 <h1 className='font-bold mb-3'>Registration date</h1>
                     <DropDown></DropDown>
                 </div>
-                <div className='mr-4'>
+                <div className='mr-4 mb-8 md:mb-8 lg:mb-0'>
                 <h1 className='font-bold mb-3'>Account</h1>
                     <DropDown></DropDown>
                 </div>
